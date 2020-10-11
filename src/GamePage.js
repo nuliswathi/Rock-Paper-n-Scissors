@@ -23,7 +23,7 @@ class GamePage extends Component {
             return;
         }
     if(user_value === comp_value) {
-        alert("It is a draw !!!");
+        alert("It is a draw both lost!!!");
     }
     else if((user_value === "Rock") && (comp_value === "Scissors")) {
         alert("Congrats!!! You Won");
