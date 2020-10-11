@@ -8,7 +8,7 @@ class GamePage extends Component {
         var user_pattern = document.getElementById("input_text").value;
         var comp_pattern = this.props.pattern;
         if(user_pattern === comp_pattern) {
-            alert("You have guessed the right pattern!!");
+            alert("You have guessed the right pattern hurray!!");
         }
         else {
             alert("The pattern you entered is wrong!!");
