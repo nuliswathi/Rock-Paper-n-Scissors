@@ -43,11 +43,15 @@ class GamePage extends Component {
         return (
             <div>
                 <h1>Welcome to Game Page</h1>
-                <button className="welcome-button" value="Rock" onClick={this.checkWinner}>Rock
-                    <span class="rock"></span>
+                <button className="welcome-button" value="Rock" onClick={this.checkWinner}>
+                    <span class="icon rock"></span>
                 </button><br></br>
-                <br></br><button className="welcome-button" value="Paper" onClick={this.checkWinner}>Paper</button><br></br>
-                <br></br><button className="welcome-button" value="Scissors" onClick={this.checkWinner}>Scissors</button><br></br>
+                <br></br>  <button className="welcome-button" value="Paper" onClick={this.checkWinner}>
+                    <span class="icon paper"></span>
+                </button><br></br>
+                <br></br>  <button className="welcome-button" value="Scissors" onClick={this.checkWinner}>
+                    <span class="icon scissors"></span>
+                </button><br></br>
                 <form>
                     <input id="input_text" type="text" placeholder="Enter your pattern" required/>
                     <br></br><input class="welcome-button" type="submit" />
