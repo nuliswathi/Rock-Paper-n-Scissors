@@ -9,9 +9,11 @@ class GamePage extends Component {
         var comp_pattern = this.props.pattern;
         if(user_pattern === comp_pattern) {
             alert("You have guessed the right pattern hurray!!");
+            return false;
         }
         else {
             alert("The pattern you entered is wrong!!");
+            return false;
         }
     }
     checkWinner = (event) => {
